@@ -50,7 +50,11 @@ public class Calculator {
 		return result;
 	}
 	
-	
+	public static int toThePower(int num1, int num2) {
+		//int result = 5 + 5;
+		int result = (int) Math.pow(num1, num2);
+		return result;
+	}
 	
 	
 	

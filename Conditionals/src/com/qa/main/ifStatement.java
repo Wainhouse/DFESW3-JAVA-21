@@ -55,9 +55,47 @@ public class ifStatement {
 	// && - AND
 	// != - not equal
 	
-	// Task - Using JAva IF ELSE create an if elsee stack that does the following:
-	// - prints out "Greater than" if a number is greater than 10 
-	// - prints out "Equals" if a number is equal to 10
-	// - Prints out "
+	// Task - Using Java IF Else create an if else stack that does the following:
+	// - Prints out "Greater than" if a number is greater than 10 
+	// - Prints out "Equals" if a number is equal to 10
+	// - Prints out "less than" if a number is less than 10 
+	
+	public static String ifElse() {
+	
+		int num = 20;
+	
+		if (num > 10) {
+			return "Greater Than";
+		} else if (num == 10) {
+			return "Equals too";
+		} else {
+			return "Less Than";
+		}
+		
+	}
+	
+	public static void complexStatement() {
+		
+		
+		boolean bool = true;
+		String colour = "Red";
+		
+		// If bool is true OR colour is red
+		if (bool == true || colour == "Red") {
+			System.out.println("bool is true OR colour is red");
+			// How can we tell which one is true?
+			
+			if (bool == true && colour == "Red") {
+				System.out.println("Both are true");
+			} else if (bool == true) {
+				System.out.println("Bool is true");
+			} else if (colour == "Red") { 
+				System.out.println("Colour is Red");
+			}
+			
+		}	
+	}
 	
 }
+
+	

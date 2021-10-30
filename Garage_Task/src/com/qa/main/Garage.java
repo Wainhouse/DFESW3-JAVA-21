@@ -1,11 +1,12 @@
 package com.qa.main;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class Garage {
 
 	
-	public ArrayList<Vehicle> garage = new ArrayList<>();
+	public HashSet<Vehicle> garage = new HashSet<>();
 	
 	public void addVehicle(Vehicle x) {
 	

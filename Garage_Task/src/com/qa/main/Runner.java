@@ -23,9 +23,9 @@ public class Runner {
 		GI.fixVehicle(CI);
 		GI.fixVehicle(HI);
 		
-		GI.clearVehicles();
+//		GI.clearVehicles();
 		
-		System.out.println();
+		System.out.println(GI.garage);
 	
 	}
 }
